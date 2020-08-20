@@ -1,0 +1,72 @@
+body{
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Do Hyeon', sans-serif;
+	font-size:18px;
+	background-color: #101732;
+	background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23646464' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.Container{
+	display: block;
+	text-align: center;
+	background: rgb(0,0,0,0.8);
+	width: 40vw;
+	max-height: 900px;
+	border-radius: 3%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.title{
+	font-size: 3.6rem;
+	padding: 2rem 0 0 0;
+	color:whitesmoke;
+}
+
+.counter{
+	color: whitesmoke;
+	font-size: 4.5rem;
+}
+
+hr{
+	background: #808080;
+	margin-top: 2.5rem;
+	margin-bottom: 2.5rem;
+	width: 45%;
+	text-align: center;
+}
+
+p{
+	color: whitesmoke;
+}
+
+/*buttons*/
+
+.btnContainer{
+	display: flex;
+	justify-content: space-around;
+}
+
+button{
+	font-family: 'Do Hyeon', sans-serif;
+	cursor: pointer;
+	font-size: 1.2rem;
+	height: 2.5rem;
+	border: none;
+	border-radius: 10px;
+	color:#333;
+	outline: none;
+	padding: 0.5rem 1.8rem;
+	box-shadow: 0 0.3rem rgba(121,121,121);
+}
+
+button:hover{
+	opacity: 0.7;
+}
+
+button:active{
+	transform: translate(0,0.3rem);
+	box-shadow: 0 0.1rem rgba(255,255,255,0.45);
+}
